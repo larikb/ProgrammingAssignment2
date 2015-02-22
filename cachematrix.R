@@ -1,10 +1,10 @@
-The following two functions are going to cache the inverse of a matrix.
+#The following two functions are going to cache the inverse of a matrix.
 
-The following makeCacheMatrix creates a "vector", which is a list containing a function to
-1. set the value of the vector
-2. get the value of the vector
-3. set the value of the solve (a function for computing the inverse of a square matrix)
-4. get the value of the solve (a function for computing the inverse of a square matrix)
+#The following makeCacheMatrix creates a "vector", which is a list containing a function to
+#1. set the value of the vector
+#2. get the value of the vector
+#3. set the value of the solve (a function for computing the inverse of a square matrix)
+#4. get the value of the solve (a function for computing the inverse of a square matrix)
 
 makeCacheMatrix <- function(x = matrix()) {
            m <- NULL
@@ -21,7 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-The following function calculates the inverse of a square matrix:
+#The following function calculates the inverse of a square matrix:
 
 cacheSolve <- function(x, ...) {
         m <- x$getsolve()
